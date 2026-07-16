@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wsl *)",
+      "Bash(echo \"exit: $?\")",
+      "Read(//mnt/c/Users/**)",
+      "Read(///wsl.localhost/Ubuntu/home/**)",
+      "Read(///wsl.localhost/Ubuntu/home/jdfernandes/taskflow/src/main/java/com/taskflow/adapters/web/dto/**)",
+      "Read(///wsl.localhost/Ubuntu/home/jdfernandes/taskflow/src/main/java/com/taskflow/domain/**)",
+      "Read(///wsl.localhost/Ubuntu/home/jdfernandes/taskflow/src/main/resources/**)",
+      "Read(///wsl.localhost/Ubuntu/home/jdfernandes/taskflow/src/main/**)"
+    ]
+  }
+}

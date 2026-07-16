@@ -1,0 +1,5 @@
+<div class="toast" [class.success]="type() === 'success'" [class.error]="type() === 'error'" role="status">
+  <span class="icon">{{ type() === 'success' ? '✓' : '✕' }}</span>
+  <span class="message">{{ message() }}</span>
+  <button type="button" class="close" (click)="dismissed.emit()" aria-label="Dismiss">×</button>
+</div>
